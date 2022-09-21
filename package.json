@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.7.3",
+    "@pooltogether/owner-manager-contracts": "^1.1.0",
+    "@pooltogether/pooltogether-rng-contracts": "^1.5.1",
+    "@pooltogether/yield-source-interface": "^1.4.0",
+    "yarn": "^1.22.19"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.0",
+    "hardhat": "^2.11.2"
+  }
+}

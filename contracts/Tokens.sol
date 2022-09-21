@@ -1,0 +1,15 @@
+// contracts/GLDToken.sol
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.6;
+
+import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
+
+contract Tokens is ERC20 {
+    constructor(uint256 initialSupply) ERC20("Gold", "GLD") {
+        _mint(msg.sender, initialSupply);
+    }
+    
+    function mint(address to,uint _amount) external {
+        _mint(to,_amount);
+    }
+}
